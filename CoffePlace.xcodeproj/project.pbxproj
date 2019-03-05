@@ -8,18 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		56F97079E49BB8D423489AA9 /* Pods_CoffePlaceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012F338DBCE0E3D848702766 /* Pods_CoffePlaceTests.framework */; };
+		9C8B7A73222DF86100C00E36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B7A72222DF86100C00E36 /* AppDelegate.swift */; };
+		9C8B7A77222DF8C900C00E36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8B7A75222DF8C900C00E36 /* LaunchScreen.storyboard */; };
+		9C8B7A79222DF8F300C00E36 /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C8B7A78222DF8F300C00E36 /* Asset.xcassets */; };
 		9CB889C2222DCA3900FFFD1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB889C1222DCA3900FFFD1D /* ViewController.swift */; };
 		9CB889CA222DCA3B00FFFD1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB889C8222DCA3B00FFFD1D /* LaunchScreen.storyboard */; };
 		9CB889D5222DCA3B00FFFD1D /* CoffePlaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB889D4222DCA3B00FFFD1D /* CoffePlaceTests.swift */; };
 		9CB889E0222DCA3B00FFFD1D /* CoffePlaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB889DF222DCA3B00FFFD1D /* CoffePlaceUITests.swift */; };
-		9CB88A24222DCA9B00FFFD1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CB889EF222DCA9900FFFD1D /* Assets.xcassets */; };
 		9CB88A25222DCA9B00FFFD1D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB889F1222DCA9900FFFD1D /* HomeViewModel.swift */; };
 		9CB88A26222DCA9B00FFFD1D /* AnnotationCoffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB889F2222DCA9900FFFD1D /* AnnotationCoffee.swift */; };
 		9CB88A27222DCA9B00FFFD1D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CB889F3222DCA9900FFFD1D /* HomeViewController.xib */; };
 		9CB88A28222DCA9B00FFFD1D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB889F4222DCA9900FFFD1D /* HomeViewController.swift */; };
 		9CB88A29222DCA9B00FFFD1D /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB889F6222DCA9900FFFD1D /* HomeViewCell.swift */; };
 		9CB88A2A222DCA9B00FFFD1D /* HomeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CB889F7222DCA9A00FFFD1D /* HomeViewCell.xib */; };
-		9CB88A2B222DCA9B00FFFD1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB889F8222DCA9A00FFFD1D /* AppDelegate.swift */; };
 		9CB88A2D222DCA9B00FFFD1D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB889FE222DCA9A00FFFD1D /* DetailViewController.swift */; };
 		9CB88A2E222DCA9B00FFFD1D /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB88A00222DCA9A00FFFD1D /* WebViewController.swift */; };
 		9CB88A2F222DCA9B00FFFD1D /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CB88A01222DCA9A00FFFD1D /* WebViewController.xib */; };
@@ -78,6 +79,9 @@
 		4B6AAC4395E604B1D1C60785 /* Pods-CoffePlaceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffePlaceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoffePlaceTests/Pods-CoffePlaceTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6A46F7D2E2B2E9BB7F533B1F /* Pods-CoffePlace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffePlace.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoffePlace/Pods-CoffePlace.debug.xcconfig"; sourceTree = "<group>"; };
 		9C820F17222DCE4E00292536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C8B7A72222DF86100C00E36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C8B7A76222DF8C900C00E36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C8B7A78222DF8F300C00E36 /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
 		9CB889BC222DCA3900FFFD1D /* CoffePlace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffePlace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CB889C1222DCA3900FFFD1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9CB889C9222DCA3B00FFFD1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -87,16 +91,13 @@
 		9CB889DB222DCA3B00FFFD1D /* CoffePlaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffePlaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CB889DF222DCA3B00FFFD1D /* CoffePlaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffePlaceUITests.swift; sourceTree = "<group>"; };
 		9CB889E1222DCA3B00FFFD1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9CB889EF222DCA9900FFFD1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Guarana/Coffee/Coffee/Assets.xcassets; sourceTree = "<group>"; };
 		9CB889F1222DCA9900FFFD1D /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		9CB889F2222DCA9900FFFD1D /* AnnotationCoffee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationCoffee.swift; sourceTree = "<group>"; };
 		9CB889F3222DCA9900FFFD1D /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		9CB889F4222DCA9900FFFD1D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9CB889F6222DCA9900FFFD1D /* HomeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
 		9CB889F7222DCA9A00FFFD1D /* HomeViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewCell.xib; sourceTree = "<group>"; };
-		9CB889F8222DCA9A00FFFD1D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../Guarana/Coffee/Coffee/AppDelegate.swift; sourceTree = "<group>"; };
 		9CB889F9222DCA9A00FFFD1D /* Coffee.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Coffee.entitlements; sourceTree = "<group>"; };
-		9CB889FC222DCA9A00FFFD1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CB889FE222DCA9A00FFFD1D /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		9CB88A00222DCA9A00FFFD1D /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		9CB88A01222DCA9A00FFFD1D /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
@@ -182,6 +183,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9C8B7A74222DF8C900C00E36 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				9C8B7A75222DF8C900C00E36 /* LaunchScreen.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
 		9CB889B3222DCA3900FFFD1D = {
 			isa = PBXGroup;
 			children = (
@@ -208,9 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				9C820F17222DCE4E00292536 /* Info.plist */,
-				9CB889F8222DCA9A00FFFD1D /* AppDelegate.swift */,
-				9CB889EF222DCA9900FFFD1D /* Assets.xcassets */,
-				9CB889FA222DCA9A00FFFD1D /* Base.lproj */,
+				9C8B7A74222DF8C900C00E36 /* Base.lproj */,
 				9CB889F9222DCA9A00FFFD1D /* Coffee.entitlements */,
 				9CB88A1C222DCA9A00FFFD1D /* Coordinators */,
 				9CB889FD222DCA9A00FFFD1D /* Details */,
@@ -221,6 +228,8 @@
 				9CB88A04222DCA9A00FFFD1D /* Utils */,
 				9CB889C1222DCA3900FFFD1D /* ViewController.swift */,
 				9CB889C8222DCA3B00FFFD1D /* LaunchScreen.storyboard */,
+				9C8B7A72222DF86100C00E36 /* AppDelegate.swift */,
+				9C8B7A78222DF8F300C00E36 /* Asset.xcassets */,
 			);
 			path = CoffePlace;
 			sourceTree = "<group>";
@@ -262,15 +271,6 @@
 				9CB889F7222DCA9A00FFFD1D /* HomeViewCell.xib */,
 			);
 			path = Cell;
-			sourceTree = "<group>";
-		};
-		9CB889FA222DCA9A00FFFD1D /* Base.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				9CB889FB222DCA9A00FFFD1D /* LaunchScreen.storyboard */,
-			);
-			name = Base.lproj;
-			path = ../../Guarana/Coffee/Coffee/Base.lproj;
 			sourceTree = "<group>";
 		};
 		9CB889FD222DCA9A00FFFD1D /* Details */ = {
@@ -468,13 +468,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C8B7A79222DF8F300C00E36 /* Asset.xcassets in Resources */,
+				9C8B7A77222DF8C900C00E36 /* LaunchScreen.storyboard in Resources */,
 				9CB889CA222DCA3B00FFFD1D /* LaunchScreen.storyboard in Resources */,
 				9CB88A27222DCA9B00FFFD1D /* HomeViewController.xib in Resources */,
 				9CB88A2F222DCA9B00FFFD1D /* WebViewController.xib in Resources */,
 				9CB88A31222DCA9B00FFFD1D /* DetailViewController.xib in Resources */,
 				9CB88A3B222DCA9B00FFFD1D /* FavoritesViewController.xib in Resources */,
 				9CB88A2A222DCA9B00FFFD1D /* HomeViewCell.xib in Resources */,
-				9CB88A24222DCA9B00FFFD1D /* Assets.xcassets in Resources */,
 				9CB88A38222DCA9B00FFFD1D /* FavoritesViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -609,6 +610,7 @@
 				9CB88A46222DCA9B00FFFD1D /* HomeCoordinator.swift in Sources */,
 				9CB88A2E222DCA9B00FFFD1D /* WebViewController.swift in Sources */,
 				9CB88A26222DCA9B00FFFD1D /* AnnotationCoffee.swift in Sources */,
+				9C8B7A73222DF86100C00E36 /* AppDelegate.swift in Sources */,
 				9CB88A42222DCA9B00FFFD1D /* CoffeAPI.swift in Sources */,
 				9CB88A30222DCA9B00FFFD1D /* DetailViewModel.swift in Sources */,
 				9CB88A44222DCA9B00FFFD1D /* EndpointType.swift in Sources */,
@@ -628,7 +630,6 @@
 				9CB88A49222DCA9B00FFFD1D /* FavoriteCoordinator.swift in Sources */,
 				9CB88A41222DCA9B00FFFD1D /* Router.swift in Sources */,
 				9CB88A25222DCA9B00FFFD1D /* HomeViewModel.swift in Sources */,
-				9CB88A2B222DCA9B00FFFD1D /* AppDelegate.swift in Sources */,
 				9CB88A29222DCA9B00FFFD1D /* HomeViewCell.swift in Sources */,
 				9CB88A3D222DCA9B00FFFD1D /* ParameterEncoder.swift in Sources */,
 				9CB88A2D222DCA9B00FFFD1D /* DetailViewController.swift in Sources */,
@@ -667,18 +668,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9CB889C8222DCA3B00FFFD1D /* LaunchScreen.storyboard */ = {
+		9C8B7A75222DF8C900C00E36 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9CB889C9222DCA3B00FFFD1D /* Base */,
+				9C8B7A76222DF8C900C00E36 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		9CB889FB222DCA9A00FFFD1D /* LaunchScreen.storyboard */ = {
+		9CB889C8222DCA3B00FFFD1D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9CB889FC222DCA9A00FFFD1D /* Base */,
+				9CB889C9222DCA3B00FFFD1D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
