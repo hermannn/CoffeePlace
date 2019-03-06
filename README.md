@@ -9,7 +9,7 @@ I used Swift 4.2 and Xcode 10 to build this app.
 This app give you information about coffee place you can access to their website and call them through the app.
 In real time you know if a place are closed , create your own list of favorites place.
 
-![](Images/detailPage.png)![](Images/home.png)
+![](Images/detailPage.png)![](Images/home.png)![](Images/accessWebsitePage.png)![](Images/favorites.png)
 
 
 # Requirements
@@ -23,7 +23,7 @@ To launch the project you have to open CoffePlace.xcworkspace through Xcode.
 Mapkit to get the map
 CoreLocation to get the current position
 
-i use Cocoapods to install the external libraries here is a list of what i use:
+I use Cocoapods to install the external libraries here is a list of what i use:
 
 RealmSwift - to use persistency in my app it helps me saved the favortie place of the user.
 RxRealm - I use this thin Wrapper of Realm to retrieve data from Realm
@@ -33,11 +33,13 @@ RxCocoa - I use it to bind my property with my Cocoa coponent to respect my MVVM
 
 # Network Part
 
-for the Network Part I decided to do it by hand without using Alamofire. I try to make a protocol oriented architecture to make it easier if i need to add new Webservice.
+For the Network Part I decided to do it by hand without using Alamofire. I try to make a protocol oriented architecture to make it easier if i need to add new Webservice.
 You can find hw i doing it in the NetworkManager repository.
+
+# Model
+
+I made my model conform to protocol Codable to allow me to parse JSON
 
 # Test
 
-i started to make some test using XCtestCase
-
-
+I started to make some test using XCtestCase
