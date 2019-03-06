@@ -9,6 +9,12 @@
 import Foundation
 import RxSwift
 
+//useful for test mockService with Dependency injection
+protocol Service {
+    func getCoffeePlace(location: LocationData, completion: @escaping(Result, ListCoffeePlace?) -> ())
+    func getCoffeeInfo(placeId: String, completion: @escaping(Result, CoffeePlace?) -> ())
+}
+
 public typealias LocationData = (long: String, lat: String)
 
 enum Result {
@@ -19,7 +25,7 @@ enum Result {
 class NetWorkManager {
     
     static let sharedInstance = NetWorkManager()
-    let apiKey = "ENTER YOUR API KEY"
+    let apiKey = "Enter API KEY"
     let router = Router<CoffeAPI>()
     
     
@@ -27,3 +33,5 @@ class NetWorkManager {
     }
     
 }
+
+extension NetWorkManager: Service {}

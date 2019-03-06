@@ -11,6 +11,8 @@
 		9C8B7A73222DF86100C00E36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B7A72222DF86100C00E36 /* AppDelegate.swift */; };
 		9C8B7A77222DF8C900C00E36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8B7A75222DF8C900C00E36 /* LaunchScreen.storyboard */; };
 		9C8B7A79222DF8F300C00E36 /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C8B7A78222DF8F300C00E36 /* Asset.xcassets */; };
+		9C8B7A7B222DFF9400C00E36 /* HomeViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B7A7A222DFF9400C00E36 /* HomeViewModelTest.swift */; };
+		9C8B7A7D222E008F00C00E36 /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B7A7C222E008F00C00E36 /* MockService.swift */; };
 		9CB889C2222DCA3900FFFD1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB889C1222DCA3900FFFD1D /* ViewController.swift */; };
 		9CB889CA222DCA3B00FFFD1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB889C8222DCA3B00FFFD1D /* LaunchScreen.storyboard */; };
 		9CB889D5222DCA3B00FFFD1D /* CoffePlaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB889D4222DCA3B00FFFD1D /* CoffePlaceTests.swift */; };
@@ -82,6 +84,8 @@
 		9C8B7A72222DF86100C00E36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C8B7A76222DF8C900C00E36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C8B7A78222DF8F300C00E36 /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
+		9C8B7A7A222DFF9400C00E36 /* HomeViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTest.swift; sourceTree = "<group>"; };
+		9C8B7A7C222E008F00C00E36 /* MockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockService.swift; sourceTree = "<group>"; };
 		9CB889BC222DCA3900FFFD1D /* CoffePlace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffePlace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CB889C1222DCA3900FFFD1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9CB889C9222DCA3B00FFFD1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -239,6 +243,8 @@
 			children = (
 				9CB889D4222DCA3B00FFFD1D /* CoffePlaceTests.swift */,
 				9CB889D6222DCA3B00FFFD1D /* Info.plist */,
+				9C8B7A7A222DFF9400C00E36 /* HomeViewModelTest.swift */,
+				9C8B7A7C222E008F00C00E36 /* MockService.swift */,
 			);
 			path = CoffePlaceTests;
 			sourceTree = "<group>";
@@ -641,6 +647,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CB889D5222DCA3B00FFFD1D /* CoffePlaceTests.swift in Sources */,
+				9C8B7A7B222DFF9400C00E36 /* HomeViewModelTest.swift in Sources */,
+				9C8B7A7D222E008F00C00E36 /* MockService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

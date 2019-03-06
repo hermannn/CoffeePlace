@@ -18,6 +18,7 @@ enum StateWs {
 
 class HomeViewModel {
     
+    let service:Service
     let textAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white]
     let navigationItemTitleString = "Coffee Place"
     let heartImageFilledString = "heart_filled"
@@ -33,7 +34,8 @@ class HomeViewModel {
     private var listAnnotationCoffeePlace$ = Variable<[AnnotationCoffee]>([])
     
     
-    init() {
+    init(service: Service) {
+        self.service = service
         listOfCoffeePlace = listOfCoffeePlace$.asObservable()
         listAnnotationCoffeePlace = listAnnotationCoffeePlace$.asObservable()
         stateCoffeeWs = stateCoffeeWs$.asObservable()
@@ -72,7 +74,7 @@ class HomeViewModel {
             stateCoffeeWs$.value = StateWs.fail("error no location")
             return
         }
-        NetWorkManager.sharedInstance.getCoffeePlace(location: currentLocation) { (result, data) in
+        service.getCoffeePlace(location: currentLocation) { (result, data) in
             switch result {
             case .error(let msg):
                 self.stateCoffeeWs$.value = StateWs.fail(msg)

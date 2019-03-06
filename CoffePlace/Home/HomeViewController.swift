@@ -17,7 +17,7 @@ import Realm
 class HomeViewController: UIViewController {
 
     weak var coordinator: HomeCoordinator?
-    var viewModel = HomeViewModel()
+    var viewModel = HomeViewModel(service: NetWorkManager.sharedInstance)
     let disposeBag = DisposeBag()
     @IBOutlet weak var mapView: MKMapView!{
         didSet {
